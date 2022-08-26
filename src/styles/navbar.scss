@@ -3,3 +3,7 @@
 .navbar {
     background-color: $blackColor;
 }
+
+button {
+    @include buttonStyle($blackColor, 25px);
+}

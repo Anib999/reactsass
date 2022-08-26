@@ -1,2 +1,8 @@
 $blackColor: #000;
 $whiteColor: #fff;
+
+@mixin buttonStyle($color, $fontSize) {
+    width: 100px;
+    color: $color;
+    font-size: $fontSize;
+}
